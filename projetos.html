@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seção de Projetos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        .projects-section {
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .projects-section h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .project-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-card-content {
+            padding: 20px;
+        }
+
+        .project-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        .project-card .project-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .project-card .project-buttons a {
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .btn-details {
+            background-color: #007BFF;
+            color: #fff;
+        }
+
+        .btn-details:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-github {
+            background-color: #28a745;
+            color: #fff;
+        }
+
+        .btn-github:hover {
+            background-color: #1c7430;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="projects-section" id="projects">
+        <h2>Meus Projetos</h2>
+        <div class="projects-container">
+            <!-- Card de exemplo -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="Preview do Projeto">
+                <div class="project-card-content">
+                    <h3>Nome do Projeto</h3>
+                    <p>Descrição breve do projeto. Aqui você pode dar uma ideia geral sobre o que se trata.</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn-details">Ver Detalhes</a>
+                        <a href="#" class="btn-github">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repita o card acima para mais projetos -->
+        </div>
+    </section>
+
+</body>
+</html>
