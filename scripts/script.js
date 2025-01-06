@@ -8,7 +8,7 @@ entries.forEach(entry => {
 });
 }, { threshold: 0.20 }); 
 
-const fadeElements = document.querySelectorAll('.hero, .about-me, .card, .my-tech, .projetos');
+const fadeElements = document.querySelectorAll('.hero, .about-me, .card, .my-tech, .projetos, .projeto-card');
 
 fadeElements.forEach(element => {
 observer.observe(element);
