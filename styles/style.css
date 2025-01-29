@@ -585,7 +585,7 @@ footer span {
 
 .projeto-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(255, 140, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(255, 140, 0, 0.466), 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .projeto-capa img {
@@ -594,12 +594,6 @@ footer span {
     object-fit: cover;
     border-radius: 15px;
     margin-bottom: 20px;
-    transition: all 0.3s ease-out;
-}
-
-.projeto-capa img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px #28a745, 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .projeto-info h3 {
